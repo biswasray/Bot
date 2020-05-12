@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Hello</title>
+    </head>
+    <body>
+        <input type="text" class="t1" />
+        <input type="button" class="b1" value="add" onclick="add()"/>
+        <br/>
+        <p class="p1"></p>
+        <script>
+            var t=document.getElementsByClassName("t1")[0];
+            var p=document.getElementsByClassName("p1")[0];
+            function add() {
+                p.innerHTML+=t.value+"<br/>";
+                t.value="";
+            }
+        </script>
+    </body>
+</html>

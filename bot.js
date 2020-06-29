@@ -1,3 +1,6 @@
+function fun() {
+    alert("Hello");
+}
 //var t1=document.getElementsByClassName("Ypffh")[0];
 //var b1=document.getElementsByClassName("sqdOP yWX7d    y3zKF     ")[0];
 //var mes="This is an automatic instagram commenter";

@@ -239,9 +239,13 @@ function findStore(m) {
 	var form=document.getElementById('fr');
 	var txb=document.getElementById('txb');
 	var url="shop-single.html?c=-1&s="+txb.value;
-	form.method="GET";
+	//form.method="GET";
 	form.action=url;
 	//$(location).attr('href',"d1.html");
 	//var puja=JSON.parse(product);
 	//alert(txb.value);
+}
+window.onload=function() {
+	var form=document.getElementById('fr');
+	form.method="GET";
 }

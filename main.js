@@ -250,3 +250,4 @@ window.onload=function() {
 	var form=document.getElementById('fr');
 	form.method="GET";
 }
+alert("asdfghj");

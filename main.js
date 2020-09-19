@@ -246,6 +246,7 @@ function findStore(m) {
 	//alert(txb.value);
 }
 window.onload=function() {
+	alert("test");
 	var form=document.getElementById('fr');
 	form.method="GET";
 }
